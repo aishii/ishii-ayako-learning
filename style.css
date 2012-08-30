@@ -3,10 +3,6 @@
 /* デフォルトスタイルクリア*/
 @import "reset.css"; 
 
-/* スタイル適用 */
-@import "style.css";
-
-
 /* --- 全体の背景・テキスト --- */
 body {
 width: 990px;
@@ -108,6 +104,10 @@ padding: 20px;/* 入力フォームのパディング（上下左右） */
 margin:5px 0 0 0;/* 入力フォームのマージン */
 border: 1px #bdb76b solid;
 float: right;
+}
+
+.oubo input {
+font-size: 80%;
 }
 
 /* --- 応募コンテンツ内画像 --- */
